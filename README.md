@@ -1,8 +1,8 @@
 # ikari
-Python script will generate the Arcade Game Ikari Warriors maps into a PNG format image.
+Python script will generate the Arcade Game Ikari Warriors maps into a PNG format images.
 # Ikari Warriors Map Plotter (`ikari_map_plot.py`)
 
-This repository contains tools for visualising tile-based background maps from the classic arcade game **Ikari Warriors** by SNK (1986). The main script, `ikari_map_plot.py`, takes binary map and graphics data extracted from the game's ROM and generates full-resolution visual maps in PNG format. This effort is intended for historical preservation, technical analysis, and educational purposes only.
+This repository contains tools for visualising tile-based background maps from the classic arcade game **Ikari Warriors** by SNK (1986). The main script, `ikari_map_plot.py`, takes binary map and graphics data extracted from the game's ROM and generates full-resolution visual maps in PNG format. This effort is only intended for historical preservation, technical analysis, and educational purposes.
 
 ---
 
@@ -20,7 +20,7 @@ Ikari Warriors uses a custom tilemap format optimised for arcade hardware of the
 
 ### 2. Palette File
 
-* 768 bytes total
+* 768 bytes total (for the background graphics)
 * 16 palettes × 16 colors each
 * Each colour: 3 bytes (RGB)
 * 48 bytes per palette
@@ -78,8 +78,8 @@ python ikari_map_plot.py gfx.bin palette.bin map.bin output.png
 
 ## 📃 Disclaimer
 
-This repository does **not** include any ROM data or copyrighted game content. To use the batch script you need to put your legal obtained ROM files (Unzipped!) in to folder. All data will be re-created.
-Many of the same scripts can also be used on other titles of IREM as the hardware is almost identical, but they may have different processing of the tile data.
+This repository does not include any ROM data or copyrighted game content. To use the batch script, you must put your legally obtained ROM files (Unzipped!) into the folder. All data will be re-created.
+Many of the same scripts can also be used on other titles of IREM, as the hardware is almost identical, but they may process the tile data differently.
 
 All reverse-engineered information is provided for educational and preservation purposes. To use this tool, you'll need to provide legal binary data obtained from Ikari Warriors.
 
