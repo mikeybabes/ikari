@@ -78,7 +78,8 @@ python ikari_map_plot.py gfx.bin palette.bin map.bin output.png
 
 ## 📃 Disclaimer
 
-This repository does **not** include any ROM data or copyrighted game content.
+This repository does **not** include any ROM data or copyrighted game content. To use the batch script you need to put your legal obtained ROM files (Unzipped!) in to folder. All data will be re-created.
+Many of the same scripts can also be used on other titles of IREM as the hardware is almost identical, but they may have different processing of the tile data.
 
 All reverse-engineered information is provided for educational and preservation purposes. To use this tool, you'll need to provide legal binary data obtained from Ikari Warriors.
 
