@@ -1,6 +1,4 @@
-# ikari
-Python script will generate the Arcade Game Ikari Warriors maps into a PNG format images.
-# Ikari Warriors Map Plotter (`ikari_map_plot.py`)
+# Ikari Warriors Map Plotter
 
 This repository contains tools for visualising tile-based background maps from the classic arcade game **Ikari Warriors** by SNK (1986). The main script, `ikari_map_plot.py`, takes binary map and graphics data extracted from the game's ROM and generates full-resolution visual maps in PNG format. This effort is only intended for historical preservation, technical analysis, and educational purposes.
 
